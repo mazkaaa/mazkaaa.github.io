@@ -47,16 +47,23 @@
         padding-bottom: 10px;
         padding-top: 60px;
     }
-    .list-wrapper .list-project{
+    .list-projects{
         
     }
-    .list-wrapper .list-project a{
+    .list-projects a{
         text-decoration: none;
-        
         color: #646464;
         font-weight: 400;
-    }
-    .list-wrapper .list-project h3{
         font-size: 1.3em;
+        transition: all .5s;
+        border-bottom: 1px dotted #757575;
+    }
+    .list-projects a:hover{
+        background-color: #646464;
+        color: #f4f4f4;
+    }
+    ul{
+        list-style-type: none;
+        padding: 0;
     }
 }
