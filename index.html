@@ -1,71 +1,50 @@
 <!DOCTYPE html>
-<html>
-	<head>
+<html lang="en">
+    <head>
         <meta charset="utf-8">
-        <meta name="author" content="Muhammad Azka">
-        <meta name="description" content="Simplified github page, trust me i'm a experienced Web Frontend Developer">
-
-        <!-- Mobile Stuff -->
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>MAZKA</title>
+        <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta name="msapplication-tap-highlight" content="no">
-
-        <!-- Chrome on Android -->
-        <meta name="mobile-web-app-capable" content="yes">
-        <meta name="application-name" content="CHANGE-ME">
-        <link rel="icon" sizes="192x192" href="images/touch/chrome-touch-icon.png">
-
-        <!-- Safari on iOS -->
-        <meta name="apple-mobile-web-app-capable" content="yes">
-        <meta name="apple-mobile-web-app-status-bar-style" content="black">
-        <meta name="apple-mobile-web-app-title" content="CHANGE-ME">
-        <link rel="apple-touch-icon" href="images/touch/apple-touch-icon.png">
-
-        <!-- Windows 8 -->
-        <meta name="msapplication-TileImage" content="images/touch/ms-touch-icon.png">
-        <meta name="msapplication-TileColor" content="#FFFFFF">
-
-
-        <meta name="theme-color" content="#000000">
-
-        <link rel="shortcut icon" href="favicon.ico">
-
-        <title>Azka's Github Page</title>
-        <link href="https://fonts.googleapis.com/css?family=Karma:300,400,500,600|Open+Sans:300,400,600,700|Oswald:200,300,400,500|Raleway:300,400,600" rel="stylesheet">
-        <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
-        <link rel="stylesheet" type="text/css" href="css/style.css">
-
-
+        <link rel="stylesheet" href="./css/style.css" type="text/css">
+        <script src="https://kit.fontawesome.com/4817f6e3a0.js" crossorigin="anonymous"></script>
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,400i,500,500i,600,600i,700,800,900&display=swap" rel="stylesheet">
     </head>
-
     <body>
-        <!-- Insert your HTML here -->
-
-        <div class="container">
-            <div class="header-wrapper">
-                <a href="./"><h1 class="header-title">Muhammad Azka</h1></a>
+        <div class="wrapper">
+            <div class="leftSide" id="page1">
+                <div class="row-flex">
+                    <div class="col">
+                        <h2 class="name">MUHAMMAD AZKA</h2>
+                        <div class="desc">
+                            <h1>Back-end Developer,</h1>
+                            <h1>Game Programmer,</h1>
+                            <h1>and <span id="role">Photographer.</span></h1>
+                        </div>
+                        <a href="#" class="btn" id="nextPage">About Me</a>
+                    </div>
+                </div>
             </div>
-
-            <div class="list-wrapper">
-                <h2 class="list-title">My projects </h2>
-                <ul class="list-projects">
-                    <li><a href="./ModernButton/">ModernButton</a></li>
-                </ul>
-
-                <h2 class="list-title">My profiles</h2>
-                <ul class="list-profiles">
-                    <li>Instagram: <a href="https://www.instagram.com/mazkaaa_/">mazkaaa_</a></li>
-                    <li>Linkedin: <a href="https://www.linkedin.com/in/muhammad-azka-37402877/">Muhammad Azka</a></li>
-                    <li>Public Key: <a href="https://keybase.io/mazka/key.asc">2568-4E50-A04E-9DD0</a></li>
-                    <li>Github: <a href="https://github.com/mazkaaa">mazkaaa</a></li>
-                </ul>
+            <div class="leftSide-2" id="page2">
+                <div class="row-flex-2">
+                    <div class="col">
+                        <a href="./index.html" id="prevPage"><i class="fas fa-arrow-left"></i> Back To Home</a>
+                        <h2 class="about-me">ABOUT ME</h2>
+                        <div class="desc">
+                            <p>My name is <a href="https://www.linkedin.com/in/muhammad-azka-37402877/">Muhammad Azka</a>, I'm a Back-end Developer, Game Programmer, and Graphic Designer based in Jakarta, Indonesia. I'm currently studying in Binus Univerity focused on Games Application and Technology. </p>
+                            <p>The first time <a href="https://github.com/mazkaaa">I wrote my code</a> was in high school in 2013, coded my own game plugins for a multiplayer game in Java. in high school, I was never learned any programming language or course and my math grade is bad. I thought math back then is boring because I can't apply the math I learn in high school in my everyday life. my learning on programming started when I want to make a game plugins but i don't know how to do that. I suddenly decompiling some game plugin and trying to make a unique code from the codebase.</p>
+                        </div>
+                        <div class="socialMedia">
+                            <a href="https://keybase.io/mazka/pgp_keys.asc"><i class="fas fa-key"></i></a>
+                            <a href="mailto:azkabdg@gmail.com"><i class="fas fa-envelope"></i></a>
+                            <a href="https://www.linkedin.com/in/muhammad-azka-37402877/"><i class="fab fa-linkedin"></i></a>
+                            <a href="https://github.com/mazkaaa"><i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                </div>
             </div>
+            <div class="rightSide"></div>
         </div>
-
-
-        <!-- Scripts -->
-        <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
-        <script src="js/bootstrap.js"></script>
+        <script src="./js/script.js"></script>
     </body>
 </html>
